@@ -1,0 +1,30 @@
+header{
+    background-color: palevioletred;
+    height: 160px;
+    border: 1px solid black;
+}
+section article{
+    border: 1px solid black;
+}
+footer{
+    display: none;
+}
+
+@media screen and (min-width:640px){
+    section{
+        display:flex;
+    }
+}
+@media screen and (max-width:800px){
+    header{
+        display: none;
+    }
+}
+@media print {
+    footer{
+        display: block;
+        background-color: paleturquoise;
+        height: 150px;
+        border: 1px solid black;
+    }
+}
