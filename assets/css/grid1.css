@@ -8,12 +8,14 @@ h1{
     margin: 0;
 }
 article{
+    float: left;
     margin: 0;
     padding: 0;
 }
 header{
     background-color: palevioletred;
-    height: 160px;
+    height: 140px;
+    width: 99%;
 }
 footer{
     display: none;
@@ -36,7 +38,6 @@ article{
     article{
         display: block;
         width: 100%;
-       
     }
 }
 @media screen and (max-width:800px){
@@ -46,9 +47,8 @@ article{
 }
 @media print {
     footer{
+        font-size: 25px;
+        background-color: aqua;
         display: block;
-        background-color: paleturquoise;
-        height: 150px;
-        border: 1px solid black;
     }
 }
