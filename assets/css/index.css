@@ -5,7 +5,7 @@ body{
 }
 h1, h2{
     text-align: center;
-    margin:0px;
+    margin:10px 0 0 0 ; 
     padding: 5px;
 }
 h3{
@@ -14,7 +14,7 @@ h3{
     text-decoration: underline;
 }
 ul{
-    margin-bottom: 65px;
+    margin-bottom: 130px;
 }
 ul li{
     list-style: none;
@@ -40,7 +40,7 @@ a:hover{
 #banniere{
     background-image: url(../img/responsive-design-presentation.jpg);
     width: 55%;
-    height: 280px;
+    height: 200px;
     border: 1px solid rgb(240, 240, 245);
     background-size:contain;
     background-position:center;
@@ -49,10 +49,10 @@ a:hover{
 }
 #banniere p{
     text-align: center;
-    font-size: 30px;
+    font-size: 32px;
     color: #20335b;
     letter-spacing: -4px;
-    line-height: 430px;
+    line-height: 300px;
 }
 #container{
     width: 55%;
