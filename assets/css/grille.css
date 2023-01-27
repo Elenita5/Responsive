@@ -94,12 +94,13 @@ div .col-lg-12 p{
     .col-lg-12{
         width: calc(1200%/12);
     }
-    #cacher{
-        display: none;
-    }
     .col-xs-2{
         display: none;
     }
+    #cacher{
+        display: none;
+    }
+    
 }
 
 @media screen and (min-width:900px) and (max-width:1200px){
@@ -180,14 +181,29 @@ div .col-lg-12 p{
     .col-sm-12{
         width: calc(1200%/12);
     }
-    #cacher{
-        display: block;
-    }
     .col-xs-2{
         display: none;
     }
+    #cacher{
+        display: block;
+    }
+   
 }
 @media (min-width:150px) and (max-width:650px) {
+    ul{
+        position: absolute;
+        top: 108px;
+        right: 5px;
+        width: 120px;
+        text-align: center;
+    }
+    ul li{
+        list-style: none;
+        display: none;
+        background-color: black;
+        color: white;
+        padding: 10px;
+    }
     .col-xs-1{
         width: calc(100%/12);
     }
@@ -224,31 +240,17 @@ div .col-lg-12 p{
     .col-xs-12{
         width: calc(1200%/12);
     }
-    #menu{
-        display: none;
-    }
     .col-xs-2 img{
         width: 100px;
+    }
+    #menu{
+        display: none;
     }
     #hamburger{
         width: 40px;
         margin:4px 0px 0px 5px;
     }
-    ul{
-        position: absolute;
-        top: 108px;
-        right: 5px;
-        width: 120px;
-        text-align: center;
-    }
-
-    ul li{
-        list-style: none;
-        display: none;
-        background-color: black;
-        color: white;
-        padding: 10px;
-    }
+  
     #hamburger:hover ~ ul li{
         display: block;
     }
