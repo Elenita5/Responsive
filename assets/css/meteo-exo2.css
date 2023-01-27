@@ -15,11 +15,6 @@ div{
 p{
     margin: 0;
 }
-
-#predi{
-    margin-left: 50%;
-    width: 62%;
-}
 .jour{
     display: inline-block;
     width: 100%;
@@ -39,6 +34,11 @@ p{
     width: 15%;
     margin-left: 10%;
 }
+#predi{
+    margin-left: 50%;
+    width: 62%;
+}
+
 @media screen and (min-width: 850px) {
     #predi{
         margin-left: 223%;
