@@ -40,9 +40,9 @@ a:hover{
 #banniere{
     background-image: url(../img/responsive-design-presentation.jpg);
     width: 55%;
-    height: 290px;
+    height: 280px;
     border: 1px solid rgb(240, 240, 245);
-    background-size:cover;
+    background-size:contain;
     background-position:center;
     margin: auto;
     min-width: 530px;
@@ -52,7 +52,7 @@ a:hover{
     font-size: 30px;
     color: #20335b;
     letter-spacing: -4px;
-    line-height: 100px;
+    line-height: 430px;
 }
 #container{
     width: 55%;
