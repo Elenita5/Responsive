@@ -74,6 +74,10 @@ p{
     p{
         font-size: 20px;
     }
+    .banniere, img{
+        width: 90px;
+        height: 90px;
+    }
     .semaine{
         display: inline-block;
         width: 100%;
