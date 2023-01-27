@@ -78,16 +78,16 @@ p{
         width: 90px;
         height: 90px;
     }
+    .jour div {
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+    }
     .semaine{
         display: inline-block;
         width: 100%;
     }
     .journee{
-        text-align: center;
-    }
-    .jour div {
-        display: inline-block;
-        width: 100%;
         text-align: center;
     }
     .jimg{
